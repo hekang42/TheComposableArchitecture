@@ -13,6 +13,7 @@
 		980DCC392BB50DF7001FC0DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 980DCC382BB50DF7001FC0DE /* Preview Assets.xcassets */; };
 		980DCC402BB50F0E001FC0DE /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980DCC3F2BB50F0E001FC0DE /* CounterFeature.swift */; };
 		980DCC432BB50FAD001FC0DE /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 980DCC422BB50FAD001FC0DE /* ComposableArchitecture */; };
+		988A81AA2BB55BEC0057DB2F /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A81A92BB55BEC0057DB2F /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		980DCC352BB50DF7001FC0DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		980DCC382BB50DF7001FC0DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		980DCC3F2BB50F0E001FC0DE /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
+		988A81A92BB55BEC0057DB2F /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				980DCC312BB50DF6001FC0DE /* TCASampleAppApp.swift */,
 				980DCC332BB50DF6001FC0DE /* ContentView.swift */,
 				980DCC3F2BB50F0E001FC0DE /* CounterFeature.swift */,
+				988A81A92BB55BEC0057DB2F /* CounterView.swift */,
 				980DCC352BB50DF7001FC0DE /* Assets.xcassets */,
 				980DCC372BB50DF7001FC0DE /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 				980DCC402BB50F0E001FC0DE /* CounterFeature.swift in Sources */,
 				980DCC342BB50DF6001FC0DE /* ContentView.swift in Sources */,
 				980DCC322BB50DF6001FC0DE /* TCASampleAppApp.swift in Sources */,
+				988A81AA2BB55BEC0057DB2F /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
