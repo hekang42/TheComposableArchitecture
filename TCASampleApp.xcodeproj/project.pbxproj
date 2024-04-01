@@ -14,6 +14,7 @@
 		980DCC402BB50F0E001FC0DE /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980DCC3F2BB50F0E001FC0DE /* CounterFeature.swift */; };
 		980DCC432BB50FAD001FC0DE /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 980DCC422BB50FAD001FC0DE /* ComposableArchitecture */; };
 		988A81AA2BB55BEC0057DB2F /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A81A92BB55BEC0057DB2F /* CounterView.swift */; };
+		988A81AD2BBAA9150057DB2F /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A81AC2BBAA9150057DB2F /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		980DCC3F2BB50F0E001FC0DE /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		988A81A92BB55BEC0057DB2F /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		988A81AB2BBA7C7F0057DB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		988A81AC2BBAA9150057DB2F /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				988A81AB2BBA7C7F0057DB2F /* Info.plist */,
 				980DCC312BB50DF6001FC0DE /* TCASampleAppApp.swift */,
+				988A81AC2BBAA9150057DB2F /* AppView.swift */,
 				980DCC332BB50DF6001FC0DE /* ContentView.swift */,
 				980DCC3F2BB50F0E001FC0DE /* CounterFeature.swift */,
 				988A81A92BB55BEC0057DB2F /* CounterView.swift */,
@@ -156,6 +159,7 @@
 				980DCC402BB50F0E001FC0DE /* CounterFeature.swift in Sources */,
 				980DCC342BB50DF6001FC0DE /* ContentView.swift in Sources */,
 				980DCC322BB50DF6001FC0DE /* TCASampleAppApp.swift in Sources */,
+				988A81AD2BBAA9150057DB2F /* AppView.swift in Sources */,
 				988A81AA2BB55BEC0057DB2F /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
