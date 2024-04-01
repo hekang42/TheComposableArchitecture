@@ -24,6 +24,7 @@
 		980DCC382BB50DF7001FC0DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		980DCC3F2BB50F0E001FC0DE /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		988A81A92BB55BEC0057DB2F /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		988A81AB2BBA7C7F0057DB2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		980DCC302BB50DF6001FC0DE /* TCASampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				988A81AB2BBA7C7F0057DB2F /* Info.plist */,
 				980DCC312BB50DF6001FC0DE /* TCASampleAppApp.swift */,
 				980DCC332BB50DF6001FC0DE /* ContentView.swift */,
 				980DCC3F2BB50F0E001FC0DE /* CounterFeature.swift */,
@@ -291,6 +293,7 @@
 				DEVELOPMENT_TEAM = 9TH57H8UP9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TCASampleApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -320,6 +323,7 @@
 				DEVELOPMENT_TEAM = 9TH57H8UP9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TCASampleApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
