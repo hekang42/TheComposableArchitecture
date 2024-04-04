@@ -31,11 +31,13 @@ struct ContactsFeature {
 //        @Presents var alert: AlertState<Action.Alert>?
         @Presents var destination: Destination.State?
         var contacts: IdentifiedArrayOf<Contact> = []
+        var path = StackState<ContactDetailFeature.State>()
     }
     enum Action {
         case addButtonTapped
         case deleteButtonTapped(id: Contact.ID)
         case destination(PresentationAction<Destination.Action>)
+        case path(StackAction<ContactDetailFeature.State, ContactDetailFeature.Action>)
         enum Alert: Equatable {
             case confirmDeletion(id: Contact.ID)
         }
@@ -69,9 +71,14 @@ struct ContactsFeature {
                     }
                 )
                 return .none
+            case .path:
+                return .none
             }
         }
         .ifLet(\.$destination, action: \.destination)
+        .forEach(\.path, action: \.path) {
+            ContactDetailFeature()
+        }
     }
 }
 
